@@ -41,7 +41,7 @@ Here are some featured projects showcased on my portfolio website:
 Feel free to connect with me for discussions, collaborations, or opportunities! 😊
 
 - 📧 Email: [rohitinu6@gmail.com](mailto:rohitinu6@gmail.com)
-- 🔗 LinkedIn: [Rohit Dubey](https://www.linkedin.com/in/rohit-dubey-b035ab212/)
+- 🔗 LinkedIn: [Rohit Dubey](https://www.linkedin.com/in/rohit-dubey-d/)
 - 🐙 GitHub: [rohitinu6](https://github.com/rohitinu6)
 
 ## 📜 License
