@@ -23,7 +23,7 @@ Welcome to my personal portfolio website! This website showcases my projects, sk
     ```
 3. Open the `index.html` file in your browser to view the website locally.
 
-Alternatively, you can view the live version at: [your live website URL] (if deployed). 🌍
+Alternatively, you can view the live version at: 🌍[Portfolio](https://tinyurl.com/dubeyrohit).
 
 ## 📂 Projects
 Here are some featured projects showcased on my portfolio website:
