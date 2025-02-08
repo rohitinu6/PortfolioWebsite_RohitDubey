@@ -310,6 +310,7 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
+  padding: 20px;
 }
 .about-stats .progress-bars .progress-bar {
   display: flex;
@@ -379,6 +380,8 @@ section {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   padding-bottom: 3rem;
+  padding-left: 20px;
+
 }
 .timeline .timeline-item {
   position: relative;
@@ -593,7 +596,7 @@ section {
   margin-left: 1.5rem;
 }
 .contact-content-con .right-contact .submit-btn {
-  margin-left: 8px;
+  margin-left: 35px;
   display: flex;
   justify-content: flex-start;
 }
@@ -690,8 +693,10 @@ section {
     padding-bottom: 6rem;
   }
   .portfolios {
-    grid-template-columns: 1fr;
-    padding-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .section {
     padding: 2rem 2.5rem;
@@ -811,4 +816,75 @@ section {
   .main-title h2 .bg-text {
     font-size: 4rem;
   }
-} /*# sourceMappingURL=styles.css.map */
+}
+/*# sourceMappingURL=styles.css.map */
+
+@media screen and (min-width: 768px) {
+  .contact-content-con .left-contact {
+    flex: 1 1 40%;
+  }
+  .contact-content-con .right-contact {
+    flex: 1 1 60%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  }
+  .header-content .left-header .image {
+    height: 200px;
+    width: 200px;
+  }
+
+  .main-btn {
+    font-size: 3vw;
+  }
+
+  .main-btn .btn-icon {
+    padding: 3vw;
+  }
+  .about-stats .progress-bars {
+    grid-template-columns: 1fr;
+  }
+  .main-title h2 {
+    font-size: 2rem;
+  }
+  .main-title h2 span {
+    font-size: 2.5rem;
+  }
+  .main-title h2 .bg-text {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main-btn {
+    font-size: 3vw;
+  }
+  .section {
+    padding: 2rem 1rem;
+  }
+  .header-content .left-header .image {
+    height: 200px;
+    width: 200px;
+  }
+  .header-content {
+    grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+  .right-header .name {
+    font-size: 2rem !important;
+  }
+  .controlls {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+  }
+}
